@@ -1,6 +1,16 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
+function BlockLink(props) {
+  return (
+    <Link href={props.href}>
+      <div className="w-36 h-36 border-gray-900 border cursor-pointer">
+        {props.children}
+      </div>
+    </Link>
+  );
+}
+
 export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-beton-100">
@@ -13,13 +23,12 @@ export default function Home() {
         <h1>Parker David Rueve</h1>
       </main>
 
-      <p>Parker is an artist and programmer interested in the built environment.</p>
-
-      <Link href="/code">code</Link>
-      <Link href="/beton">beton</Link>
-      <Link href="/7guis">7guis</Link>
-      <Link href="/structures">structures</Link>
-      <Link href="/poasts">poasts</Link>
+      <BlockLink href="/beton">Beton</BlockLink>
+      <BlockLink href="/7guis">7 GUIs</BlockLink>
+      <BlockLink href="/structures">structures</BlockLink>
+      <BlockLink href="/code">code</BlockLink>
+      <BlockLink href="/poasts">poasts</BlockLink>
+      <BlockLink href="/cv">CV</BlockLink>
 
 
       <footer>
