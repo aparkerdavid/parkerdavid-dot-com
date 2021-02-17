@@ -18,7 +18,10 @@ export default function Home() {
 
       <Link href="/poasts">poasts</Link>
       <Link href="/code">code</Link>
+      <Link href="/beton">beton</Link>
+      <Link href="/7guis">7guis</Link>
       <Link href="/structures">structures</Link>
+      <Link href="/poasts">poasts</Link>
 
 
       <footer>
