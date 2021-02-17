@@ -16,7 +16,6 @@ export default function Home() {
 
       <p>Parker is an artist and programmer interested in the built environment.</p>
 
-      <Link href="/poasts">poasts</Link>
       <Link href="/code">code</Link>
       <Link href="/beton">beton</Link>
       <Link href="/7guis">7guis</Link>
