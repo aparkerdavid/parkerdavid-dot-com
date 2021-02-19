@@ -3,11 +3,13 @@ import Link from 'next/link';
 
 function BlockLink(props) {
   return (
-    <Link href={props.href}>
-      <div className="w-36 h-36 border-gray-900 border cursor-pointer">
-        {props.children}
-      </div>
-    </Link>
+  <div className="flex-grow">
+      <Link href={props.href}>
+        <div className="w-36 h-36 border-gray-900 border cursor-pointer">
+          {props.children}
+        </div>
+      </Link>
+  </div>
   );
 }
 
@@ -22,14 +24,15 @@ export default function Home() {
       <main>
         <h1>Parker David Rueve</h1>
       </main>
+      <div className="flex flex-row flex-wrap justify-items-center max-w-lg ">
+        <BlockLink href="/beton">Beton</BlockLink>
+        <BlockLink href="/7guis">7 GUIs</BlockLink>
+        <BlockLink href="/structures">structures</BlockLink>
+        <BlockLink href="/code">code</BlockLink>
+        <BlockLink href="/poasts">poasts</BlockLink>
+        <BlockLink href="/cv">CV</BlockLink>
 
-      <BlockLink href="/beton">Beton</BlockLink>
-      <BlockLink href="/7guis">7 GUIs</BlockLink>
-      <BlockLink href="/structures">structures</BlockLink>
-      <BlockLink href="/code">code</BlockLink>
-      <BlockLink href="/poasts">poasts</BlockLink>
-      <BlockLink href="/cv">CV</BlockLink>
-
+      </div>
 
       <footer>
 
