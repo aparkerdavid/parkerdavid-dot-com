@@ -24,7 +24,7 @@ export default function Home() {
       <main>
         <h1>Parker David Rueve</h1>
       </main>
-      <div className="flex flex-row flex-wrap justify-items-center max-w-lg ">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
         <BlockLink href="/beton">Beton</BlockLink>
         <BlockLink href="/7guis">7 GUIs</BlockLink>
         <BlockLink href="/structures">structures</BlockLink>
