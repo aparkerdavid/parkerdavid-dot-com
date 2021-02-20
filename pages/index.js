@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-beton-100">
       <Head>
-        <title>Create Next App</title>
+        <title>Parker David Rueve</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
