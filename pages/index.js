@@ -53,7 +53,7 @@ export default function Home() {
         <main>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
             <BlockLink href="/beton">Beton Theme</BlockLink>
-            <BlockLink href="/7guis">7 GUIs</BlockLink>
+            <BlockLink href="https://stoic-franklin-71dc69.netlify.app">7 GUIs</BlockLink>
             <BlockLink href="/structures">structures</BlockLink>
             <BlockLink href="/code">code</BlockLink>
             <BlockLink href="/poasts">poasts</BlockLink>
