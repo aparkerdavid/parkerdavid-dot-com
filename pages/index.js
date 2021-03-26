@@ -44,7 +44,7 @@ export default function Home() {
           <MonoText word="Rueve"/>  
         </h1>
         <main>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mb-20">
             {/*<BlockLink href="/beton">Beton Theme</BlockLink>*/}
             <BlockLink href="https://stoic-franklin-71dc69.netlify.app">7 GUIs</BlockLink>
             {/*<BlockLink href="/structures">structures</BlockLink>*/}
