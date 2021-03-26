@@ -3,12 +3,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      beton: {
-        100: "#f5f2f0",
-        200: "#ded4cd",
-      },
+      'beige': '#f5f2f0',
+      'beige-shade': "#ded4cd",
+      'white': "#ffffff"
+    }
     },
-    extend: {},
+    extend: {
+      colors: {
+        'beige': "#f5f2f0",
+        'beige-shade': "#ded4cd"
+    },
   },
   variants: {
     extend: {},

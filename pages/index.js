@@ -6,7 +6,7 @@ function BlockLink(props) {
   return (
     <div className="flex-grow">
       <Link href={props.href}>
-        <div className="rounded-sm w-36 h-36 border-gray-900 border cursor-pointer">
+        <div className="rounded-sm shadow-xl w-36 h-36 border border-black bg-white cursor-pointer">
           {props.children}
         </div>
       </Link>
