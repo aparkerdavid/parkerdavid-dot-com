@@ -37,7 +37,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col justify-center items-center min-h-screen bg-beige">
+      <div className="flex flex-col justify-center items-center min-h-screen">
         <h1
           className="uppercase text-4xl tracking-widest mb-20 mx-2"
         > 
