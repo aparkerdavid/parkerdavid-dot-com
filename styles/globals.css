@@ -13,6 +13,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+::selection {
+  background: #ffbc5d;
+}
+
+
 h1, h2, h3, h4 {
   font-family: 'Libre Baskerville', 'serif';
 }
