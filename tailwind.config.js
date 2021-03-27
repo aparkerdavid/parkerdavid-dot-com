@@ -19,6 +19,7 @@ module.exports = {
       'magenta-shade': "#75358D",
       'cyan': "#0083B2",
       'cyan-shade': "#006285",
+      'peach': "#ffbc5d"
 
     }
     },
