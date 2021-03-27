@@ -25,3 +25,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.flow > * + * {
+  margin-top: 1.5rem;
+}
