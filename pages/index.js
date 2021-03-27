@@ -6,8 +6,10 @@ function BlockLink(props) {
   return (
     <div className="flex-grow">
       <Link href={props.href}>
-        <div className="rounded-sm shadow-xl w-36 h-36 border border-black bg-white cursor-pointer">
-          {props.children}
+        <div className="flex justify-items-center items-center content-center rounded-sm shadow-xl w-36 h-36 border border-black bg-white cursor-pointer">
+        <div className="mx-auto">
+          {props.children}          
+        </div>
         </div>
       </Link>
     </div>
@@ -46,11 +48,17 @@ export default function Home() {
         <main>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mb-20">
             {/*<BlockLink href="/beton">Beton Theme</BlockLink>*/}
-            <BlockLink href="https://stoic-franklin-71dc69.netlify.app">7 GUIs</BlockLink>
+            <BlockLink href="https://stoic-franklin-71dc69.netlify.app">
+              <img src="/7guis.svg" alt="7 GUIs"/>
+            </BlockLink>
             {/*<BlockLink href="/structures">structures</BlockLink>*/}
-            <BlockLink href="/code">code</BlockLink>
+            <BlockLink href="http://github.com/aparkerdavid">
+              <img src="/gh.svg" alt="GitHub Icon"/>
+            </BlockLink>
             {/*<BlockLink href="/poasts">poasts</BlockLink>*/}
-            <BlockLink href="/cv">CV</BlockLink>
+            <BlockLink href="/cv">
+              <img src="/cv.svg" alt="CV"/>
+            </BlockLink>
 
           </div>
         </main>
