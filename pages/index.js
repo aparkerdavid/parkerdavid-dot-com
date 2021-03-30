@@ -56,6 +56,9 @@ export default function Home() {
             <BlockLink href="/cv">
               <img src="/cv.svg" alt="CV"/>
             </BlockLink>
+                        <BlockLink href='/beton'>
+                            <img src='/beton.png' alt='Beton' />
+                        </BlockLink>
 
           </div>
         </main>
