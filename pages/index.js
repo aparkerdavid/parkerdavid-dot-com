@@ -18,11 +18,11 @@ function BlockLink(props) {
 
 function MonoText(props) {
   return (
-  <span class="inline-block mx-4">  
+  <span class="mx-4 my-1 sm:my-2 flex flex-nowrap">  
     {
     props.word
       .split("")
-      .map(ch => ( <span className="inline-block text-center w-14">{ ch }</span> ))
+      .map(ch => ( <span className="inline-block text-center w-12 sm:w-14">{ ch }</span> ))
     }
   </span>
 
@@ -38,13 +38,13 @@ export default function Home() {
       </Head>
 
       <div className="flex flex-col justify-center items-center min-h-screen">
-        <h1
-          className="uppercase text-4xl tracking-widest mb-20 mx-2"
-        > 
-          <MonoText word="Parker"/>
-          <MonoText word="David"/>
-          <MonoText word="Rueve"/>  
-        </h1>
+        <div className="uppercase text-4xl tracking-widest mb-20 mx-2 baskerville">
+          <div className="flex flex-col lg:flex-row">
+            <MonoText word="Parker"/>
+            <MonoText word="David"/>
+            <MonoText word="Rueve"/>            
+          </div>
+        </div>
         <main>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mb-20">
             <BlockLink href="https://stoic-franklin-71dc69.netlify.app">

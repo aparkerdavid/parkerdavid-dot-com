@@ -9,7 +9,7 @@ export default function Layout(props) {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <div className="min-h-screen py-20 mx-auto max-w-xl flow">
-	            	{ props.children }          		
+	            	{ props.children }
             </div>
         </>
     );
