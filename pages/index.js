@@ -60,10 +60,10 @@ export default function Home() {
           </div>
         </main>
 
-        <footer>
-          <div className="m-auto">© Parker David Rueve, {(new Date()).getFullYear()}</div>
-        </footer>
-      </div>
-    </>
-  );
+                <footer>
+                    <div className='m-auto'>©{new Date().getFullYear()}</div>
+                </footer>
+            </div>
+        </>
+    );
 }
