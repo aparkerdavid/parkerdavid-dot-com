@@ -23,6 +23,10 @@ h1, h2, h3, h4 {
   font-family: 'Libre Baskerville', 'serif';
 }
 
+.baskerville {
+    font-family: 'Libre Baskerville', 'serif';
+}
+
 h1 {
   @apply text-2xl;
 }
