@@ -47,15 +47,12 @@ export default function Home() {
         </h1>
         <main>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 mb-20">
-            {/*<BlockLink href="/beton">Beton Theme</BlockLink>*/}
             <BlockLink href="https://stoic-franklin-71dc69.netlify.app">
               <img src="/7guis.svg" alt="7 GUIs"/>
             </BlockLink>
-            {/*<BlockLink href="/structures">structures</BlockLink>*/}
             <BlockLink href="http://github.com/aparkerdavid">
               <img src="/gh.svg" alt="GitHub Icon"/>
             </BlockLink>
-            {/*<BlockLink href="/poasts">poasts</BlockLink>*/}
             <BlockLink href="/cv">
               <img src="/cv.svg" alt="CV"/>
             </BlockLink>
